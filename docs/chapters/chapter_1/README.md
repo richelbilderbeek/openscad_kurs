@@ -5,9 +5,7 @@ OpenSCAD. Vi följel kapittel 1 av boken
 'Programming with OpenSCAD' av Justin Gohde
 och Marius Kintel.
 
-```text
-TODO: Picture of book
-```
+![Programming with OpenSCAD](programming_with_openscad_cover.png)
 
 ## 1.1. Att läsa Engelska
 
