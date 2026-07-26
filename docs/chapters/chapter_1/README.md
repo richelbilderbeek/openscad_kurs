@@ -63,6 +63,8 @@ Av kapittel 'Introduction' i boken, läs början och paragraf
 
 Hur uttalar man 'OpenSCAD'?
 
+\pagebreak
+
 ### 1.3. Svar
 
 På Engelska: 'Open-S-CAD', på svenska: 'åpen-äs-kät'.
@@ -81,6 +83,8 @@ på sidorna `xxii` (Romerska 22)  och `xviii` (Romerska 23).
 1. Hur läser man koordinatet P på svenska? Envänder ord som 'åt höger',
   'åt vänster', 'uppåt', neråt', usw.
 1. Vilket koordinat är 5 vänster av P?
+
+\pagebreak
 
 ### 1.4. Svar
 
@@ -104,6 +108,8 @@ Kör koden i OpenSCAD.
 1. Vad betyder den hakparenteser (`[` och `]`)? Tips: vad heter stället där
   en av hörnar av kuben?
 1. Ändra koden till `cube(5);`. Hur uttalar man på svenska vad koden gör?
+
+\pagebreak
 
 ### 1.5. Svar
 
@@ -132,6 +138,8 @@ Texten säger att den 10 är den 'radius' av sphären.
 1. En annat sätt att besrika storleken av en sphär är att använda
   ordet 'diameter'. Vad är detta?
 
+\pagebreak
+
 ## 1.6. Svar
 
 1. Engelska 'radius' är 'radie' i svenska
@@ -152,6 +160,8 @@ cylinder(h=20, r1=5, r2=5);
 1. Vilket Engelskt ord är `h` en förkortning av? Vad heter det på svenska?
 1. Vilket Engelskt ord är `r` en förkortning av? Vad heter det på svenska?
 
+\pagebreak
+
 ### 1.7. Svar
 
 1. `h` är en förkortnig av engelska 'height'. På svenska kaller i det 'höjd'.
@@ -162,6 +172,8 @@ cylinder(h=20, r1=5, r2=5);
 Läs sidor 6-7, 'Importing 3D Models with import'.
 
 Kör koden på sida 6. Vad ser du? Varför?
+
+\pagebreak
 
 ### 1.8. Svar
 
@@ -186,6 +198,8 @@ translate([1, 2, 3]) cube([4, 5, 6]);
 1. Hur läser man på svenska `translate([1, 2, 3])`?
 1. Ändra koden till `translate([1, 2, 3]); cube([4, 5, 6]);`.
   Vad händer? Varför?
+
+\pagebreak
 
 ### 1.9. Svar
 
@@ -222,6 +236,8 @@ $fn = 50;
 1. Kör 'kod 1'. Blir den andra sphär ritat smidigt?
 1. Kör 'kod 2'. Blir den andra sphär ritat smidigt?
 
+\pagebreak
+
 ### 1.10. Svar
 
 1. På svenska kan man läsa `$fn = 50' som 'kära dator, ritar ut alla
@@ -239,6 +255,8 @@ inklusive tekstboxen ovanpå sida 13.
 
 På svenska, hur skull du beskriva vad engelska 'boolean' är?
 
+\pagebreak
+
 ### 1.11. Svar
 
 En engelska 'boolean' är, i svenkt, en boolean.
@@ -254,6 +272,8 @@ till (och inklusive) 'Debugging difference Operations with #'.
 1. Hur uttalar man `#` i svenska?
 1. `#` viktigt för felsökning när man tar bort former. Varför är `#`
   inte viktigt när man **lägger till** former (som vi har hittils gjort)?
+
+\pagebreak
 
 ### 1.12. Svar
 
@@ -283,12 +303,14 @@ intersection() {
 1. Använder en nummertecken (`#`) för att visa felet. Vad är felet?
 1. Hur kan Sven laga problemet?
 
+\pagebreak
+
 ### 1.13. Svar
 
 1. Om du lägger till en nummertecken före `cube`,
   ser du nedstående bild. Felet är at kuben är inte centrerade.
 
-![](cube_sphere_error.png)
+![Kub och sphär med fel](cube_sphere_error.png)
 
 1. Gör kuben centrerade med `cube(15, center = true);` istället av
   bara `cube(15);`.
@@ -298,6 +320,8 @@ intersection() {
 Läs sidor 19-20, 'Getting Ready for 3D Printing'.
 
 1. Vad kallar man engelska 'rendering' i svenska? Vad betyder detta?
+
+\pagebreak
 
 ### 1.14. Svar
 
