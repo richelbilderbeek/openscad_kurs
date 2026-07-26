@@ -22,6 +22,7 @@ var man lär sig att designa 3D modeller med OpenSCAD.
     - Lördager 13.00-15.00 (5 september och senare)
       under [Lördagskurserna](https://uppsala-makerspace.github.io/loerdagskurser/)
 - [Veckoschemat](veckoschemat.md)
-- [Kappitel](chapters/README.md)
+- [Kapittel](chapters/README.md)
 - [Böcker](books/README.md)
+- [Lektionskort](lesson_card/README.md)
 - [Vanliga frågor](vanliga_fraagor.md)
