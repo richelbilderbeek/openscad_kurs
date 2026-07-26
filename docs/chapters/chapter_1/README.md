@@ -5,7 +5,7 @@ OpenSCAD. Vi följel kapittel 1 av boken
 'Programming with OpenSCAD' av Justin Gohde
 och Marius Kintel.
 
-![Programming with OpenSCAD](programming_with_openscad_cover.png)
+![Programming with OpenSCAD](programming_with_openscad_book_cover.jpg)
 
 ## 1.1. Att läsa Engelska
 
@@ -157,13 +157,47 @@ cylinder(h=20, r1=5, r2=5);
 1. `h` är en förkortnig av engelska 'height'. På svenska kaller i det 'höjd'.
 1. `r` är en förkortnig av engelska 'radius'. På svenska kaller i det 'radie'.
 
-## 1.8. ...
+## 1.8. Att importera
+
+Läs sidor 6-7, 'Importing 3D Models with import'.
+
+Kör koden på sida 6. Vad ser du? Varför?
 
 ### 1.8. Svar
 
-Så här ser det ut:
+Koden visar ingenting! Så här ser det ut:
 
-![](import_3dbenchy_stl.png)
+![Koden visar ingenting](import_3dbenchy_stl.png)
+
+Det är på grund av att du inte har den filen (`3Dbenchy.stl`) du behöver.
+
+## 1.9. Att flytta
+
+Läs sidor 7-10, 'Modifying basic shapes'
+till (och inklusive) 'Moving Shapes to a Specific Location with translate'.
+
+Kolla på den här koden:
+
+```c++
+translate([1, 2, 3]) cube([4, 5, 6]);
+```
+
+1. En upprepning: hur läser man på svenska `cube([4, 5, 6])`?
+1. Hur läser man på svenska `translate([1, 2, 3])`?
+1. Ändra koden till `translate([1, 2, 3]); cube([4, 5, 6]);`.
+  Vad händer? Varför?
+
+### 1.9. Svar
+
+1. På svenska läser man `cube([4, 5, 6])` som: 'kära dator, rita ut
+  en kub som är 4 bredd, 5 djupt och 6 högt'.
+1. På svenska läser man `translate([1, 2, 3])` som: 'kära dator, flyttar
+  saken efter den här kod med 1 till höger, 2 i djupet och 3 i höjden'.
+1. Kuben blir ritat på den vanliga ställe (dvs. utan den `translate` kommand).
+  Det är på grund av den semikolon (`;`) såklart: `translate([1, 2, 3]);`
+  läser man på svenska som: 'kära dator, flyttar
+  **ingenting** med 1 till höger, 2 i djupet och 3 i höjden'.
+  Efter den fösta semikolonen blir bara den kub ritat som vanligt.
 
 ## 1.99. Slutuppgift
 
