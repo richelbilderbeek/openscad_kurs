@@ -115,10 +115,56 @@ Kör koden i OpenSCAD.
 1. På svenska uttalar man `cube(5);` som 'Kara dator, rita ut en kub med
   storlek 5'
 
-```text
-TODO: more stuff, ask AtomBjörn first
+## 1.6. Att rita sphärer
+
+Läs sidor 3-4, 'Drawing Spheres with sphere'.
+
+Kolla på första koden:
+
+```c++
+sphere(10);
 ```
-  
+
+Texten säger att den 10 är den 'radius' av sphären.
+
+1. Vad är svenska översättning av engelska 'radius'?
+1. Vad är detta?
+1. En annat sätt att besrika storleken av en sphär är att använda
+  ordet 'diameter'. Vad är detta?
+
+## 1.6. Svar
+
+1. Engelska 'radius' är 'radie' i svenska
+1. Det är distansen mellan mitten av sphären och kanten
+1. Diametern är distansen mellan ena sida till andra sida av sphären.
+
+## 1.7. Att rita cilindrar och keglor
+
+Läs sidor 4-6, 'Drawing
+Cylinders and Cones with cylinder'.
+
+Kolla på första koden:
+
+```c++
+cylinder(h=20, r1=5, r2=5);
+```
+
+1. Vilket Engelskt ord är `h` en förkortning av? Vad heter det på svenska?
+1. Vilket Engelskt ord är `r` en förkortning av? Vad heter det på svenska?
+
+### 1.7. Svar
+
+1. `h` är en förkortnig av engelska 'height'. På svenska kaller i det 'höjd'.
+1. `r` är en förkortnig av engelska 'radius'. På svenska kaller i det 'radie'.
+
+## 1.8. ...
+
+### 1.8. Svar
+
+Så här ser det ut:
+
+![](import_3dbenchy_stl.png)
+
 ## 1.99. Slutuppgift
 
 Rita varje figur på sida 22 'Design time: 3D shapes'
