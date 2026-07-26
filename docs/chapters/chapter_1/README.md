@@ -7,6 +7,8 @@ och Marius Kintel.
 
 ![Programming with OpenSCAD](programming_with_openscad_book_cover.jpg)
 
+\pagebreak
+
 ## 1.1. Att läsa Engelska
 
 Boken är på Engelska.
@@ -21,6 +23,8 @@ Väljer den rätta språkor och dina meningar blir översätta:
 
 ![Dina meningar blir översätta](google_translate.png)
 
+\pagebreak
+
 ## 1.2. Att öppna OpenSCAD
 
 Om du använder våra kursdatorer,
@@ -30,6 +34,8 @@ på vänstrasida av skrivbordet:
 ![OpenSCAD ikonen på skrivbordet](openscad_on_desktop_annotated.png)
 
 Klicka på ikonen och OpenSCAD startar.
+
+\pagebreak
 
 Om det finns ingen OpenSCAD ikon:
 
@@ -43,18 +49,20 @@ Om det finns ingen OpenSCAD ikon:
 
 - Skriv ner `openscad` och klick på OpenSCAD ikonen
 
-![Skriv ner `openscad` och klick på OpenSCAD ikonen](ubuntu_seach_openscad.png)
+![Skriv ner `openscad` och klick på OpenSCAD ikonen](ubuntu_seach_openscad_top.png)
+
+\pagebreak
 
 ## 1.3. Att start an ny ritning i OpenSCAD
 
 Om du får den 'Welcome to OpenSCAD' föster,
 klicka på 'New':
 
-![Klicka på 'New'](openscad_welcome_screen_click_new.png)
+![Klicka på 'New'](openscad_welcome_screen_click_new_4x_wider.png)
 
 Nu kann du skapa 3D modeller i OpenSCAD:
 
-![Nu kann du skapa 3D modeller i OpenSCAD](openscad_on_ubuntu.png)
+![Nu kann du skapa 3D modeller i OpenSCAD](openscad_on_ubuntu_2x_wider.png)
 
 ## 1.3. Vad är OpenSCAD?
 
