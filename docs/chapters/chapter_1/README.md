@@ -1,4 +1,4 @@
-# 1. Basics
+# 1. Introduktion och 3D ritning med OpenSCAD
 
 I den här kapittel lära vis oss basen av
 OpenSCAD. Vi följel kapittel 1 av boken

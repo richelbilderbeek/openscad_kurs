@@ -6,22 +6,22 @@ Här är alla kapitel av OpenSCAD kursen.
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
-1  |[3D drawing with OpenSCAD](chapter_1/README.md)
-2  |More ways to transform shapes
-3  |2D shapes
+1  |[Introduktion och 3D ritning med OpenSCAD](chapter_1/README.md)
+2  |[Fler sätt att ändra former](chapter_2/README.md)
+3  |[2D former](chapter_3/README.md)
 
 ## Lektionskort 2
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
-4  |Using loops and variables
-5  |Modules
-6  |Dynamic design with `if` statements
+4  |Att använda loops och variabler
+5  |Modul
+6  |Dynamiskt formgivning med `if` satser
 
 ## Lektionskort 3
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
-7  |Designing big projects
+7  |Formgivning av stora projekter
 .  |.
 .  |.
