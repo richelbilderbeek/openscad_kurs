@@ -20,4 +20,4 @@ fi
 
 cd front_pages || exit 42
 
-pandoc front_page_1.md -o ../books/book_1/front_page.pdf
+pandoc front_page_1.md -o ../books/book_1_front_page.pdf

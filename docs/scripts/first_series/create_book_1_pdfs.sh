@@ -19,7 +19,6 @@ if [[ "$PWD" =~ scripts$ ]]; then
 fi
 
 build_folder=build
-book_number="1"
 
 rm -rf build
 mkdir build
@@ -30,7 +29,8 @@ if [ ! -d ${build_folder} ]; then
 fi
 
 cp foreword/*.*                      ${build_folder}; mv ${build_folder}/README.md ${build_folder}/README_00.md
-cp chapters/chapter_1/*.*            ${build_folder}; mv ${build_folder}/README.md ${build_folder}/README_01.md
+cp books/book_1/*.*                  ${build_folder}; mv ${build_folder}/README.md ${build_folder}/README_01.md
+cp --recursive books/book_1/media    ${build_folder}
 cp scripts/openscad_book_style.theme ${build_folder}
 
 cd "${build_folder}" || exit 41
@@ -44,15 +44,15 @@ cd "${build_folder}" || exit 41
 # Code has highlights following the tango color scheme
 # Thinner margin of 0.5 inch
 # Do not cut code blocks
-pandoc README.md -o "book_${book_number}_contents.pdf" --toc --toc-depth=1 --highlight-style=openscad_book_style.theme -V geometry:margin=0.5in
+pandoc README.md -o book_contents.pdf --toc --toc-depth=1 --highlight-style=openscad_book_style.theme -V geometry:margin=0.5in
 
-cp "book_${book_number}_contents.pdf" "../books/book_${book_number}_contents.pdf"
+cp book_contents.pdf ../books/book_1/book_contents.pdf
 
-cd ../books || exit 42
-pdfunite "book_${book_number}_front_page.pdf" "book_${book_number}_contents.pdf" "book_${book_number}.pdf"
+cd ../books/book_1 || exit 42
+pdfunite front_page.pdf book_contents.pdf book.pdf
 
 # Make booklet
-bookletimposer -a "book_${book_number}.pdf" -o "booklet_${book_number}.pdf"
+bookletimposer -a book.pdf -o booklet.pdf
 
 # Cleanup
-rm "book_${book_number}_contents.pdf"
+rm book_contents.pdf

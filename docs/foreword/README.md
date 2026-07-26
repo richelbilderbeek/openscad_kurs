@@ -14,7 +14,7 @@ Denna bok är licensierad av CC-BY-SA.
 
 ![Licensen för denna bok](CC-BY-SA.png)
 
-(C) Björn Pihlgren
+(C) Richèl Bilderbeek och alla lärare och alla elever
 
 Med det här häftet kan du göra vad du vill, så länge du hänvisar till
 originalversionen på denna webbplats:
