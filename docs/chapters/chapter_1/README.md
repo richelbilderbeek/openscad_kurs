@@ -199,8 +199,111 @@ translate([1, 2, 3]) cube([4, 5, 6]);
   **ingenting** med 1 till höger, 2 i djupet och 3 i höjden'.
   Efter den fösta semikolonen blir bara den kub ritat som vanligt.
 
-## 1.99. Slutuppgift
+## 1.10. Smidiga kurvor
+
+Läs sidor 11-12, 'Smoothing curves with `$fn`'.
+
+Kolla på den här två kod:
+
+```c++
+// Kod 1
+sphere(1, $fn = 50);
+translate([2, 2, 2]) sphere(1);
+```
+
+```c++
+// Kod 2
+sphere(1);
+translate([2, 2, 2]) sphere(1);
+$fn = 50;
+```
+
+1. Hur kan man läsa `$fn = 50' på svenska?
+1. Kör 'kod 1'. Blir den andra sphär ritat smidigt?
+1. Kör 'kod 2'. Blir den andra sphär ritat smidigt?
+
+### 1.10. Svar
+
+1. På svenska kan man läsa `$fn = 50' som 'kära dator, ritar ut alla
+  kurvor med 50 linjer per cirkel'.
+1. I kod 1 blir andra spheren inte ritat smidigt: den `$fn` blev
+  bara användt för den första sphär.
+1. I kod 2 blir andra spheren ritat smidigt: den `$fn`, även om
+  den rad är efter all ritningar, blev gjort först! Båda sphärer
+  är ritat smidiga.
+
+## 1.11. Boolesk algebra
+
+Läs sidor 12-13, 'Combining 3D Shapes with Boolean Operations',
+inklusive tekstboxen ovanpå sida 13.
+
+På svenska, hur skull du beskriva vad engelska 'boolean' är?
+
+### 1.11. Svar
+
+En engelska 'boolean' är, i svenkt, en boolean.
+En boolean är en typ av saker i världen som
+kan vara sant eller falskt. Till example,
+om du är född i sverige är sant eller falskt.
+
+## 1.12. Felsökning
+
+Läs sidor 13-15, 'Subtracting Shapes with difference',
+till (och inklusive) 'Debugging difference Operations with #'.
+
+1. Hur uttalar man `#` i svenska?
+1. `#` viktigt för felsökning när man tar bort former. Varför är `#`
+  inte viktigt när man **lägger till** former (som vi har hittils gjort)?
+
+### 1.12. Svar
+
+1. `#` har mycket olika namn: nummertecken, brädgård, gärdsgård, stege,
+  staket, spjälstaket, fyrkant, vedstapel, haga, stockhög, grind eller fyrtagg.
+1. `#` är oviktigt när man lägger till former, för att man kan direkt ser
+  den formen du har lagt till.
+  
+## 1.13. Glimmande väggar
+
+Läs sidor 15-19, 'Avoiding "Shimmering Walls" with the `difference` Operation',
+till (och inklusive) 'Grouping Shapes with `union`'.
+
+Sven ville gör den här ritning:
+
+![Kub sphär](cube_sphere.png)
+
+Han har skrivit den här koden:
+
+```c++
+intersection() {
+  cube(15);
+  sphere(10);
+}
+```
+
+1. Använder en nummertecken (`#`) för att visa felet. Vad är felet?
+1. Hur kan Sven laga problemet?
+
+### 1.13. Svar
+
+1. Om du lägger till en nummertecken före `cube`,
+  ser du nedstående bild. Felet är at kuben är inte centrerade.
+
+![](cube_sphere_error.png)
+
+1. Gör kuben centrerade med `cube(15, center = true);` istället av
+  bara `cube(15);`.
+
+## 1.14. 3D skrivande
+
+Läs sidor 19-20, 'Getting Ready for 3D Printing'.
+
+1. Vad kallar man engelska 'rendering' i svenska? Vad betyder detta?
+
+### 1.14. Svar
+
+1. Engelska 'rendering' är kallad 'rendering' på svenska också.
+
+## 1.15. Slutuppgift
 
 Rita varje figur på sida 22 'Design time: 3D shapes'
 i samma ordning. Visa varje en till en lärare eller visar all 6 samtidigt.
-
