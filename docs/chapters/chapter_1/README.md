@@ -50,7 +50,7 @@ Om det finns ingen OpenSCAD ikon:
 Om du får den 'Welcome to OpenSCAD' föster,
 klicka på 'New':
 
-![Klicka på 'New'](openscad_welcome_screen_click_new.png) 
+![Klicka på 'New'](openscad_welcome_screen_click_new.png)
 
 Nu kann du skapa 3D modeller i OpenSCAD:
 
@@ -79,14 +79,14 @@ på sidorna `xxii` (Romerska 22)  och `xviii` (Romerska 23).
 1. Varför har koordinater tre siffror?
 1. Vilket koordinat har punkt P?
 1. Hur läser man koordinatet P på svenska? Envänder ord som 'åt höger',
-  'åt vänster', 'uppåt', neråt', usw. 
+  'åt vänster', 'uppåt', neråt', usw.
 1. Vilket koordinat är 5 vänster av P?
 
 ### 1.4. Svar
 
 1. Koordinatet är `(0,0,0)`
 1. Det är uttalat som 'noll komma noll komma noll'
-1. För att 3D har tre rikningar: åt höger, åt djupet, och åt uppåt 
+1. För att 3D har tre rikningar: åt höger, åt djupet, och åt uppåt
 1. Koordinatet av P är `(3,0,5)`
 1. `(3,0,5)` uttalar man på svenska som: '3 åt höger, noll i djupet
   och 5 uppåt'.
