@@ -6,6 +6,6 @@ Den här är lektionskort vi använder:
 
 Kurs    |Kortnummer|Textdocument                            |PDF dokument
 --------|----------|----------------------------------------|----------------------------------------
-OpenSCAD|1         |[lektionskort_1.odt](lektionskort_1.odt)|[lektionskort_1.pdf](lektionskort_1.pdf)
+OpenSCAD|1         |[lesson_card_1.odt](lesson_card_1.odt)  |[lesson_card_1.pdf](lesson_card_1.pdf)
 
 <!-- markdownlint-enable MD013 -->
