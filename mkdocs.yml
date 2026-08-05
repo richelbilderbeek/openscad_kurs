@@ -7,13 +7,12 @@ edit_uri: blob/main/docs/
 nav:
   - Main page: index.md
   - Veckoschemat: veckoschemat.md
-  - Kappitel: chapters/README.md
+  - Kapitel: chapters/README.md
   - Böcker: books/README.md
   - Vanliga frågor: vanliga_fraagor.md
 
 theme:
   name: material
-  greetings: Välkommen till OpenSCAD kursen
   font:
     text: Lato
     code: JetBrains Mono
