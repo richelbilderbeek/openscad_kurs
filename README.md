@@ -9,7 +9,7 @@
 
 <!-- markdownlint-enable MD013 -->
 
-[Go to our nicely rendered website](https://uppsala-makerspace.github.io/openscad_kurs/).
+[Go to our nicely rendered website](https://richelbilderbeek.github.io/openscad_kurs/).
 
 - [Contributing](docs/CONTRIBUTING.md)
 
