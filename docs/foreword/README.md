@@ -18,7 +18,7 @@ Denna bok är licensierad av CC-BY-SA.
 
 Med det här häftet kan du göra vad du vill, så länge du hänvisar till
 originalversionen på denna webbplats:
-[`https://uppsala-makerspace.github.io/loedningskurs/`](https://github.com/uppsala-makerspace/openscad_kurs).
+[`https://richelbilderbeek.github.io/openscad_kurs/`](https://github.com/richelbilderbeek/openscad_kurs).
 Detta häfte kommer alltid att förbli gratis, fritt och öppet.
 
 Det är fortfarande en lite slarvig bok.
