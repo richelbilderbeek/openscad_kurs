@@ -26,3 +26,5 @@ var man lär sig att designa 3D modeller med OpenSCAD.
 - [Böcker](books/README.md)
 - [Lektionskort](lesson_card/README.md)
 - [Vanliga frågor](vanliga_fraagor.md)
+
+[![DOI](https://zenodo.org/badge/1282184578.svg)](https://doi.org/10.5281/zenodo.21807800)
