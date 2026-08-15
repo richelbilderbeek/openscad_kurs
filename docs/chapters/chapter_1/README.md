@@ -192,6 +192,7 @@ Koden visar ingenting! Så här ser det ut:
 ![Koden visar ingenting](import_3dbenchy_stl.png)
 
 Det är på grund av att du inte har den filen (`3Dbenchy.stl`) du behöver.
+
 ## 1.9. Att flytta
 
 Läs sidor 7-10, 'Modifying basic shapes'
@@ -218,15 +219,15 @@ translate([1, 2, 3]) cube([4, 5, 6]);
   saken efter den här kod med 1 steg i x-led, 2 steg i y-led och 3 steg i z-led'.
 1. Kuben blir ritat på den vanliga ställe (dvs. utan den `translate` kommand).
   Det är på grund av den semikolon (`;`) såklart: `translate([1, 2, 3]);`
-  läser man på svenska som: 'kära dator, flyttar
-  **ingenting** med 1 till höger, 2 i djupet och 3 i höjden'.
-  Efter den fösta semikolonen blir bara den kub ritat som vanligt.
+  läser man på svenska som: 'kära dator, flytta
+  **ingenting** med 1 steg i x-led, 2 steg i y-led och 3 steg i z-led'.
+  Efter den fösta semikolonen blir bara kuben ritad som vanligt.
 
 ## 1.10. Smidiga kurvor
 
 Läs sidor 11-12, 'Smoothing curves with `$fn`'.
 
-Kolla på den här två kod:
+Kolla på de här två koderna:
 
 ```c++
 // Kod 1
@@ -249,7 +250,7 @@ $fn = 50;
 
 ### 1.10. Svar
 
-1. På svenska kan man läsa `$fn = 50' som 'kära dator, ritar ut alla
+1. På svenska kan man läsa `$fn = 50' som 'kära dator, rita ut alla
   kurvor med 50 linjer per cirkel'.
 1. I kod 1 blir andra spheren inte ritat smidigt: den `$fn` blev
   bara användt för den första sphär.
@@ -260,7 +261,7 @@ $fn = 50;
 ## 1.11. Boolesk algebra
 
 Läs sidor 12-13, 'Combining 3D Shapes with Boolean Operations',
-inklusive tekstboxen ovanpå sida 13.
+inklusive textboxen på sidan 13.
 
 På svenska, hur skull du beskriva vad engelska 'boolean' är?
 
