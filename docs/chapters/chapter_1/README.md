@@ -243,8 +243,8 @@ $fn = 50;
 ```
 
 1. Hur kan man läsa `$fn = 50' på svenska?
-1. Kör 'kod 1'. Blir den andra sphär ritat smidigt?
-1. Kör 'kod 2'. Blir den andra sphär ritat smidigt?
+1. Kör 'kod 1'. Blir den andra sfären ritad slät och jämn?
+1. Kör 'kod 2'. Blir den andra sfären ritad slät och jämn?
 
 \pagebreak
 
@@ -252,11 +252,11 @@ $fn = 50;
 
 1. På svenska kan man läsa `$fn = 50' som 'kära dator, rita ut alla
   kurvor med 50 linjer per cirkel'.
-1. I kod 1 blir andra spheren inte ritat smidigt: den `$fn` blev
-  bara användt för den första sphär.
-1. I kod 2 blir andra spheren ritat smidigt: den `$fn`, även om
-  den rad är efter all ritningar, blev gjort först! Båda sphärer
-  är ritat smidiga.
+1. I kod 1 blir inte den andra sfären ritad slät och jämn:  `$fn`kommandot blev
+  bara använd för den första sfären.
+1. I kod 2 blir den andra sfären ritad slät och jämn: `$fn`kommandot, även om
+  den rad är efter all ritningar, blev gjort först! Båda sfärerna blir
+  är ritade släta och jämna.
 
 ## 1.11. Boolesk algebra
 
