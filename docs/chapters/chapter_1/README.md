@@ -125,13 +125,13 @@ Kör koden i OpenSCAD.
 
 1. På svenska läser man `cube([5, 10, 20]);` som: 'Kära dator,
  rita gärna ut en kub som är 5 lång, 10 bred och 20 hög'
-1. Den OpenSCAD semicolonen (`;`) är den svenka period (`.`) i skift
-1. Hakparenteserna betyder att detta är ett koordinat. En av hörnarna av kuben
-  har koordinatet `(5, 10, 20)`
-1. På svenska uttalar man `cube(5);` som 'Kara dator, rita ut en kub med
-  storlek 5'
+1. Semikolon i OpenSCAD (`;`) betyder att satsen är slut och värdet fastställt.
+1. Hakparenteserna betyder att detta är en koordinat. Ett av hörnen på kuben
+  har koordinaten `(5, 10, 20).
+1. På svenska uttalar man `cube(5);` som kära dator, rita ut en kub med
+   alla sidor 5'
 
-## 1.6. Att rita sphärer
+## 1.6. Att rita sfärer
 
 Läs sidor 3-4, 'Drawing Spheres with sphere'.
 
@@ -141,11 +141,11 @@ Kolla på första koden:
 sphere(10);
 ```
 
-Texten säger att den 10 är den 'radius' av sphären.
+Texten säger att sfärens radie är 10.
 
 1. Vad är svenska översättning av engelska 'radius'?
 1. Vad är detta?
-1. En annat sätt att besrika storleken av en sphär är att använda
+1. En annat sätt att beskriva storleken på en sfär är att använda
   ordet 'diameter'. Vad är detta?
 
 \pagebreak
@@ -153,10 +153,10 @@ Texten säger att den 10 är den 'radius' av sphären.
 ## 1.6. Svar
 
 1. Engelska 'radius' är 'radie' i svenska
-1. Det är distansen mellan mitten av sphären och kanten
-1. Diametern är distansen mellan ena sida till andra sida av sphären.
+1. Det är distansen mellan sfärens centrum och kanten.
+1. Diametern är distansen mellan ena sida till andra sida av fhären.
 
-## 1.7. Att rita cilindrar och keglor
+## 1.7. Att rita cylindrar och käglor
 
 Läs sidor 4-6, 'Drawing
 Cylinders and Cones with cylinder'.
@@ -192,7 +192,6 @@ Koden visar ingenting! Så här ser det ut:
 ![Koden visar ingenting](import_3dbenchy_stl.png)
 
 Det är på grund av att du inte har den filen (`3Dbenchy.stl`) du behöver.
-
 ## 1.9. Att flytta
 
 Läs sidor 7-10, 'Modifying basic shapes'
@@ -214,9 +213,9 @@ translate([1, 2, 3]) cube([4, 5, 6]);
 ### 1.9. Svar
 
 1. På svenska läser man `cube([4, 5, 6])` som: 'kära dator, rita ut
-  en kub som är 4 bredd, 5 djupt och 6 högt'.
+  en kub som är 4 lång, 5 bred och 6 hög'.
 1. På svenska läser man `translate([1, 2, 3])` som: 'kära dator, flyttar
-  saken efter den här kod med 1 till höger, 2 i djupet och 3 i höjden'.
+  saken efter den här kod med 1 steg i x-led, 2 steg i y-led och 3 steg i z-led'.
 1. Kuben blir ritat på den vanliga ställe (dvs. utan den `translate` kommand).
   Det är på grund av den semikolon (`;`) såklart: `translate([1, 2, 3]);`
   läser man på svenska som: 'kära dator, flyttar
