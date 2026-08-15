@@ -1,7 +1,7 @@
 # 1. Introduktion och 3D ritning med OpenSCAD
 
-I den här kapitel lära visa oss grunden av
-OpenSCAD. Vi följel kapittel 1 av boken
+I det här kapitlet lär vi oss grunderna i 
+OpenSCAD. Vi följer kapitel 1 i boken
 'Programming with OpenSCAD' av Justin Gohde
 och Marius Kintel.
 
@@ -16,20 +16,20 @@ Om du behöver översätta ord till svenska,
 är Google Translate en bra webbsida:
 
 I en webläsare (t.ex. Firefox, Chrome, Chromium, Edge, Opera)
-surf till `https://translate.google.com` (det räcker
+surfa till `https://translate.google.com` (det räcker
 med att skriva `translate.google.com`).
 
-Väljer den rätta språkor och dina meningar blir översätta:
+Välj språk och dina meningar blir översatta:
 
-![Dina meningar blir översätta](google_translate.png)
+![Dina meningar blir översatta](google_translate.png)
 
 \pagebreak
 
 ## 1.2. Att öppna OpenSCAD
 
 Om du använder våra kursdatorer,
-kann du hitta OpenSCAD ikonen
-på vänstrasida av skrivbordet:
+kan du hitta OpenSCAD ikonen
+på skrivbordets vänstra sida:
 
 ![OpenSCAD ikonen på skrivbordet](openscad_on_desktop_annotated.png)
 
@@ -37,7 +37,7 @@ Klicka på ikonen och OpenSCAD startar.
 
 \pagebreak
 
-Om det finns ingen OpenSCAD ikon:
+Om det inte finns någon OpenSCAD ikon:
 
 - Tryck på Windows tangenten
 
@@ -47,22 +47,22 @@ Om det finns ingen OpenSCAD ikon:
 
 [Klicka på 'Type to search'](ubuntu_search.png)
 
-- Skriv ner `openscad` och klick på OpenSCAD ikonen
+- Skriv ner `openscad` och klicka på OpenSCAD ikonen
 
 ![Skriv ner `openscad` och klick på OpenSCAD ikonen](ubuntu_seach_openscad_top.png)
 
 \pagebreak
 
-## 1.3. Att start an ny ritning i OpenSCAD
+## 1.3. Att starta en ny ritning i OpenSCAD
 
 Om du får den 'Welcome to OpenSCAD' föster,
 klicka på 'New':
 
 ![Klicka på 'New'](openscad_welcome_screen_click_new_4x_wider.png)
 
-Nu kann du skapa 3D modeller i OpenSCAD:
+Nu kan du skapa 3D modeller i OpenSCAD:
 
-![Nu kann du skapa 3D modeller i OpenSCAD](openscad_on_ubuntu_2x_wider.png)
+![Nu kan du skapa 3D modeller i OpenSCAD](openscad_on_ubuntu_2x_wider.png)
 
 ## 1.3. Vad är OpenSCAD?
 
@@ -75,44 +75,46 @@ Hur uttalar man 'OpenSCAD'?
 
 ### 1.3. Svar
 
-På Engelska: 'Open-S-CAD', på svenska: 'åpen-äs-kät'.
+På Engelska: 'Open-S-CAD', på svenska: 'open-S-katt'.
 
-## 1.4. Vad är 3D punktar?
+## 1.4. Vad är 3D punkter och koordinater?
 
-Om du har aldrig hör om koordinater,
-av kapittel 'Introduction' i boken,
+Om du har aldrig hört talas om koordinater,
+I kapitel 'Introduction' i boken,
 läs hela paragrafen 'A brief introduction to 3D design with OpenSCAD',
 på sidorna `xxii` (Romerska 22)  och `xviii` (Romerska 23).
 
-1. Vilken koordinat har ursprunget ('origin')?
-1. Hur uttalar man koordinatet av ursprunget ('origin')?
+Se Figur 1 på sidan xxii:
+
+1. Vilken koordinater har origo (origo är punkten där X, Y, Z axlarna möts)
+1. Hur uttalar man koordinaterna för origo?
 1. Varför har koordinater tre siffror?
-1. Vilket koordinat har punkt P?
-1. Hur läser man koordinatet P på svenska? Envänder ord som 'åt höger',
+1. Vilka koordinater har punkten P?
+1. Hur läser man koordinaten för P på svenska? Envänd ord som 'åt höger',
   'åt vänster', 'uppåt', neråt', usw.
-1. Vilket koordinat är 5 vänster av P?
+1. Vilket koordinat har punkten 5 vänster av P?
 
 \pagebreak
 
 ### 1.4. Svar
 
-1. Koordinatet är `(0,0,0)`
-1. Det är uttalat som 'noll komma noll komma noll'
-1. För att 3D har tre rikningar: åt höger, åt djupet, och åt uppåt
-1. Koordinatet av P är `(3,0,5)`
-1. `(3,0,5)` uttalar man på svenska som: '3 åt höger, noll i djupet
-  och 5 uppåt'.
-1. Koordinatet 5 vänster av P är `(-2,0,5)`
+1. Koordinaten är `(0,0,0)`
+1. Det uttalas som 'noll komma noll komma noll'
+1. För att 3D har tre riktningar: X, Y och Z (Se figur 1).
+1. Koordinaten för P är `(3,0,5)`
+1. `(3,0,5)` uttalar man på svenska som: '3 i x-led, noll i y-led
+  och 5 i z-led.
+1. Koordinaten 5 vänster av P är `(-2,0,5)`
 
 ## 1.5. Att rita en kub
 
-Av kapittel 1 '3D drawing with OpenSCAD', läs sidor 1 till 3,
+I kapitel 1 '3D drawing with OpenSCAD', läs sidorna 1 till 3,
 till (och inklusive) 'Drawing Cuboids with `cube`.
 Kör koden i OpenSCAD.
 
 1. Hur läser man på svenska `cube([5, 10, 20]);`?
-1. Vad betyder den semicolonen (`;`)? Tips: vilken tecken använder människor
-  i skift istället?
+1. Vad betyder semicolon (`;`)? Tips: vilken tecken använder människor
+  i skrift istället?
 1. Vad betyder den hakparenteser (`[` och `]`)? Tips: vad heter stället där
   en av hörnar av kuben?
 1. Ändra koden till `cube(5);`. Hur uttalar man på svenska vad koden gör?
@@ -122,7 +124,7 @@ Kör koden i OpenSCAD.
 ### 1.5. Svar
 
 1. På svenska läser man `cube([5, 10, 20]);` som: 'Kära dator,
-  gjärna rita ut en kub som är 5 bredd, 10 djupt och 20 högt'
+ rita gärna ut en kub som är 5 lång, 10 bred och 20 hög'
 1. Den OpenSCAD semicolonen (`;`) är den svenka period (`.`) i skift
 1. Hakparenteserna betyder att detta är ett koordinat. En av hörnarna av kuben
   har koordinatet `(5, 10, 20)`
