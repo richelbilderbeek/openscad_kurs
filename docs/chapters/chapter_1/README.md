@@ -1,6 +1,6 @@
 # 1. Introduktion och 3D ritning med OpenSCAD
 
-I det här kapitlet lär vi oss grunderna i 
+I det här kapitlet lär vi oss grunderna i
 OpenSCAD. Vi följer kapitel 1 i boken
 'Programming with OpenSCAD' av Justin Gohde
 och Marius Kintel.
