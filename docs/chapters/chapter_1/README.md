@@ -154,9 +154,9 @@ Texten säger att sfärens radie är 10.
 
 1. Engelska 'radius' är 'radie' i svenska
 1. Det är distansen mellan sfärens centrum och kanten.
-1. Diametern är distansen mellan ena sida till andra sida av fhären.
+1. Diametern är distansen mellan ena sida till andra sida av klotet.
 
-## 1.7. Att rita cylindrar och käglor
+## 1.7. Att rita cylindrar och koner
 
 Läs sidor 4-6, 'Drawing
 Cylinders and Cones with cylinder'.
@@ -223,7 +223,7 @@ translate([1, 2, 3]) cube([4, 5, 6]);
   **ingenting** med 1 steg i x-led, 2 steg i y-led och 3 steg i z-led'.
   Efter den fösta semikolonen blir bara kuben ritad som vanligt.
 
-## 1.10. Smidiga kurvor
+## 1.10. Släta och jämna klot och cylindrar
 
 Läs sidor 11-12, 'Smoothing curves with `$fn`'.
 
@@ -242,9 +242,9 @@ translate([2, 2, 2]) sphere(1);
 $fn = 50;
 ```
 
-1. Hur kan man läsa `$fn = 50' på svenska?
-1. Kör 'kod 1'. Blir den andra sfären ritad slät och jämn?
-1. Kör 'kod 2'. Blir den andra sfären ritad slät och jämn?
+1. Hur kan man säga `$fn = 50' på svenska?
+1. Kör 'kod 1'. Blir den ena klotet slät och jämnt?
+1. Kör 'kod 2'. Blir det andra klotet ritad slät och jämnt?
 
 \pagebreak
 
