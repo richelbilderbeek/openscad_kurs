@@ -90,7 +90,7 @@ Se Figur 1 på sidan xxii:
 1. Hur uttalar man koordinaterna för origo?
 1. Varför har koordinater tre siffror?
 1. Vilka koordinater har punkten P?
-1. Hur läser man koordinaten för P på svenska? Envänd ord som 'åt höger',
+1. Hur läser man koordinaten för P på svenska? Använd ord som 'åt höger',
   'åt vänster', 'uppåt', neråt', usw.
 1. Vilket koordinat har punkten 5 vänster av P?
 
@@ -131,7 +131,7 @@ Kör koden i OpenSCAD.
 1. På svenska uttalar man `cube(5);` som kära dator, rita ut en kub med
    alla sidor 5'
 
-## 1.6. Att rita sfärer
+## 1.6. Att rita klot
 
 Läs sidor 3-4, 'Drawing Spheres with sphere'.
 
@@ -144,7 +144,7 @@ sphere(10);
 Texten säger att sfärens radie är 10.
 
 1. Vad är svenska översättning av engelska 'radius'?
-1. Vad är detta?
+1. Vad menas med radie?
 1. En annat sätt att beskriva storleken på en sfär är att använda
   ordet 'diameter'. Vad är detta?
 
