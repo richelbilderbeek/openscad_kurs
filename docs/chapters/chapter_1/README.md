@@ -75,7 +75,7 @@ Hur uttalar man 'OpenSCAD'?
 
 ### 1.3. Svar
 
-På Engelska: 'Open-S-CAD', på svenska: 'open-S-katt'.
+På Engelska: 'Open-S-CAD', på svenska: 'open-S-kad'.
 
 ## 1.4. Vad är 3D punkter och koordinater?
 
