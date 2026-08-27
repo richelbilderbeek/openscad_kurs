@@ -145,7 +145,7 @@ Texten säger att sfärens radie är 10.
 
 1. Vad är svenska översättning av engelska 'radius'?
 1. Vad menas med radie?
-1. En annat sätt att beskriva storleken på en sfär är att använda
+1. En annat sätt att beskriva storleken på ett klot är att använda
   ordet 'diameter'. Vad är detta?
 
 \pagebreak
@@ -153,7 +153,7 @@ Texten säger att sfärens radie är 10.
 ## 1.6. Svar
 
 1. Engelska 'radius' är 'radie' i svenska
-1. Det är distansen mellan sfärens centrum och kanten.
+1. Det är distansen mellan klotets centrum och kanten.
 1. Diametern är distansen mellan ena sida till andra sida av klotet.
 
 ## 1.7. Att rita cylindrar och koner
