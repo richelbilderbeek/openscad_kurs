@@ -141,10 +141,10 @@ Kolla på första koden:
 sphere(10);
 ```
 
-Texten säger att sfärens radie är 10.
+Texten säger att klotets radie är 10.
 
 1. Vad är svenska översättning av engelska 'radius'?
-1. Vad menas med radie?
+1. Vad menas med detta?
 1. En annat sätt att beskriva storleken på ett klot är att använda
   ordet 'diameter'. Vad är detta?
 
