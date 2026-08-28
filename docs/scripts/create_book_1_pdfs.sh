@@ -44,7 +44,9 @@ cd "${build_folder}" || exit 41
 # Code has highlights following the tango color scheme
 # Thinner margin of 0.5 inch
 # Do not cut code blocks
-pandoc README.md -o "book_${book_number}_contents.pdf" --toc --toc-depth=1 --highlight-style=openscad_book_style.theme -V geometry:margin=0.5in
+# pandoc README.md -o "book_${book_number}_contents.pdf" --toc --toc-depth=1 --highlight-style=openscad_book_style.theme -V geometry:margin=0.5in
+pandoc README.md -o "book_${book_number}_contents.pdf" --toc --toc-depth=1 --highlight-style=openscad_book_style.theme -V geometry:margin=0.5in -V fontsize=20pt -V documentclass=extarticle
+
 
 cp "book_${book_number}_contents.pdf" "../books/book_${book_number}_contents.pdf"
 
