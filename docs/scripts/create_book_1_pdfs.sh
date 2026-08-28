@@ -45,8 +45,9 @@ cd "${build_folder}" || exit 41
 # Thinner margin of 0.5 inch
 # Do not cut code blocks
 # pandoc README.md -o "book_${book_number}_contents.pdf" --toc --toc-depth=1 --highlight-style=openscad_book_style.theme -V geometry:margin=0.5in
+# For fonts 10pt, 11pt, 12pt, add: -V fontsize=12pt
+# For fonts 8–20pt, add: -V fontsize=20pt -V documentclass=extarticle
 pandoc README.md -o "book_${book_number}_contents.pdf" --toc --toc-depth=1 --highlight-style=openscad_book_style.theme -V geometry:margin=0.5in -V fontsize=20pt -V documentclass=extarticle
-
 
 cp "book_${book_number}_contents.pdf" "../books/book_${book_number}_contents.pdf"
 
