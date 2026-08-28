@@ -39,15 +39,19 @@ Klicka på ikonen och OpenSCAD startar.
 
 Om det inte finns någon OpenSCAD ikon:
 
-- Tryck på Windows tangenten
+Tryck på Windows tangenten
 
 ![Tryck på Windows tangenten](windows_key.jpg)
 
-- Klicka på 'Type to search'
+\pagebreak
 
-[Klicka på 'Type to search'](ubuntu_search.png)
+Klicka på 'Type to search':
 
-- Skriv ner `openscad` och klicka på OpenSCAD ikonen
+![Klicka på 'Type to search'](ubuntu_search.png)
+
+\pagebreak
+
+Skriv ner `openscad` och klicka på OpenSCAD ikonen
 
 ![Skriv ner `openscad` och klick på OpenSCAD ikonen](ubuntu_seach_openscad_top.png)
 
@@ -64,6 +68,8 @@ Nu kan du skapa 3D modeller i OpenSCAD:
 
 ![Nu kan du skapa 3D modeller i OpenSCAD](openscad_on_ubuntu_2x_wider.png)
 
+\pagebreak
+
 ## 1.3. Vad är OpenSCAD?
 
 Av kapittel 'Introduction' i boken, läs början och paragraf
@@ -76,6 +82,8 @@ Hur uttalar man 'OpenSCAD'?
 ### 1.3. Svar
 
 På Engelska: 'Open-S-CAD', på svenska: 'open-S-kad'.
+
+\pagebreak
 
 ## 1.4. Vad är 3D punkter och koordinater?
 
@@ -106,6 +114,8 @@ Se Figur 1 på sidan xxii:
   och 5 i z-led.
 1. Koordinaten 5 vänster av P är `(-2,0,5)`
 
+\pagebreak
+
 ## 1.5. Att rita en kub
 
 I kapitel 1 '3D drawing with OpenSCAD', läs sidorna 1 till 3,
@@ -130,6 +140,8 @@ Kör koden i OpenSCAD.
   har koordinaten `(5, 10, 20).
 1. På svenska uttalar man `cube(5);` som kära dator, rita ut en kub med
    alla sidor 5'
+
+\pagebreak
 
 ## 1.6. Att rita klot
 
@@ -156,6 +168,8 @@ Texten säger att klotets radie är 10.
 1. Det är distansen mellan klotets centrum och kanten.
 1. Diametern är distansen mellan ena sida till andra sida av klotet.
 
+\pagebreak
+
 ## 1.7. Att rita cylindrar och koner
 
 Läs sidor 4-6, 'Drawing
@@ -177,6 +191,8 @@ cylinder(h=20, r1=5, r2=5);
 1. `h` är en förkortnig av engelska 'height'. På svenska kaller i det 'höjd'.
 1. `r` är en förkortnig av engelska 'radius'. På svenska kaller i det 'radie'.
 
+\pagebreak
+
 ## 1.8. Att importera
 
 Läs sidor 6-7, 'Importing 3D Models with import'.
@@ -192,6 +208,8 @@ Koden visar ingenting! Så här ser det ut:
 ![Koden visar ingenting](import_3dbenchy_stl.png)
 
 Det är på grund av att du inte har den filen (`3Dbenchy.stl`) du behöver.
+
+\pagebreak
 
 ## 1.9. Att flytta
 
@@ -222,6 +240,8 @@ translate([1, 2, 3]) cube([4, 5, 6]);
   läser man på svenska som: 'kära dator, flytta
   **ingenting** med 1 steg i x-led, 2 steg i y-led och 3 steg i z-led'.
   Efter den fösta semikolonen blir bara kuben ritad som vanligt.
+
+\pagebreak
 
 ## 1.10. Släta och jämna klot och cylindrar
 
@@ -258,6 +278,8 @@ $fn = 50;
   den rad är efter all ritningar, blev gjort först! Båda kloten blir
   är ritade släta och jämna.
 
+\pagebreak
+
 ## 1.11. Boolesk algebra
 
 Läs sidor 12-13, 'Combining 3D Shapes with Boolean Operations',
@@ -273,6 +295,8 @@ En engelska 'boolean' är, i svenkt, en boolean.
 En boolean är en typ av saker i världen som
 kan vara sant eller falskt. Till example,
 om du är född i sverige är sant eller falskt.
+
+\pagebreak
 
 ## 1.12. Felsökning
 
@@ -291,7 +315,9 @@ till (och inklusive) 'Debugging difference Operations with #'.
   staket, spjälstaket, fyrkant, vedstapel, haga, stockhög, grind eller fyrtagg.
 1. `#` är oviktigt när man lägger till former, för att man kan direkt ser
   den formen du har lagt till.
-  
+
+\pagebreak
+
 ## 1.13. Glimmande väggar
 
 Läs sidor 15-19, 'Avoiding "Shimmering Walls" with the `difference` Operation',
@@ -300,6 +326,8 @@ till (och inklusive) 'Grouping Shapes with `union`'.
 Sven ville gör den här ritning:
 
 ![Kub sphär](cube_sphere.png)
+
+\pagebreak
 
 Han har skrivit den här koden:
 
@@ -324,6 +352,8 @@ intersection() {
 
 1. Gör kuben centrerade med `cube(15, center = true);` istället för
   bara `cube(15);`.
+
+\pagebreak
 
 ## 1.14. 3D skrivande
 
