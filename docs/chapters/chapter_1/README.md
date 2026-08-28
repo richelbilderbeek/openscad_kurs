@@ -75,7 +75,7 @@ Hur uttalar man 'OpenSCAD'?
 
 ### 1.3. Svar
 
-På Engelska: 'Open-S-CAD', på svenska: 'open-S-katt'.
+På Engelska: 'Open-S-CAD', på svenska: 'open-S-kad'.
 
 ## 1.4. Vad är 3D punkter och koordinater?
 
@@ -90,7 +90,7 @@ Se Figur 1 på sidan xxii:
 1. Hur uttalar man koordinaterna för origo?
 1. Varför har koordinater tre siffror?
 1. Vilka koordinater har punkten P?
-1. Hur läser man koordinaten för P på svenska? Envänd ord som 'åt höger',
+1. Hur läser man koordinaten för P på svenska? Använd ord som 'åt höger',
   'åt vänster', 'uppåt', neråt', usw.
 1. Vilket koordinat har punkten 5 vänster av P?
 
@@ -131,7 +131,7 @@ Kör koden i OpenSCAD.
 1. På svenska uttalar man `cube(5);` som kära dator, rita ut en kub med
    alla sidor 5'
 
-## 1.6. Att rita sfärer
+## 1.6. Att rita klot
 
 Läs sidor 3-4, 'Drawing Spheres with sphere'.
 
@@ -141,11 +141,11 @@ Kolla på första koden:
 sphere(10);
 ```
 
-Texten säger att sfärens radie är 10.
+Texten säger att klotets radie är 10.
 
 1. Vad är svenska översättning av engelska 'radius'?
-1. Vad är detta?
-1. En annat sätt att beskriva storleken på en sfär är att använda
+1. Vad menas med detta?
+1. En annat sätt att beskriva storleken på ett klot är att använda
   ordet 'diameter'. Vad är detta?
 
 \pagebreak
@@ -153,10 +153,10 @@ Texten säger att sfärens radie är 10.
 ## 1.6. Svar
 
 1. Engelska 'radius' är 'radie' i svenska
-1. Det är distansen mellan sfärens centrum och kanten.
-1. Diametern är distansen mellan ena sida till andra sida av fhären.
+1. Det är distansen mellan klotets centrum och kanten.
+1. Diametern är distansen mellan ena sida till andra sida av klotet.
 
-## 1.7. Att rita cylindrar och käglor
+## 1.7. Att rita cylindrar och koner
 
 Läs sidor 4-6, 'Drawing
 Cylinders and Cones with cylinder'.
@@ -223,7 +223,7 @@ translate([1, 2, 3]) cube([4, 5, 6]);
   **ingenting** med 1 steg i x-led, 2 steg i y-led och 3 steg i z-led'.
   Efter den fösta semikolonen blir bara kuben ritad som vanligt.
 
-## 1.10. Smidiga kurvor
+## 1.10. Släta och jämna klot och cylindrar
 
 Läs sidor 11-12, 'Smoothing curves with `$fn`'.
 
@@ -242,9 +242,9 @@ translate([2, 2, 2]) sphere(1);
 $fn = 50;
 ```
 
-1. Hur kan man läsa `$fn = 50' på svenska?
-1. Kör 'kod 1'. Blir den andra sfären ritad slät och jämn?
-1. Kör 'kod 2'. Blir den andra sfären ritad slät och jämn?
+1. Hur kan man säga `$fn = 50' på svenska?
+1. Kör 'kod 1'. Blir den ena klotet slät och jämnt?
+1. Kör 'kod 2'. Blir det andra klotet ritad slät och jämnt?
 
 \pagebreak
 
@@ -252,10 +252,10 @@ $fn = 50;
 
 1. På svenska kan man läsa `$fn = 50' som 'kära dator, rita ut alla
   kurvor med 50 linjer per cirkel'.
-1. I kod 1 blir inte den andra sfären ritad slät och jämn:  `$fn`kommandot blev
+1. I kod 1 blir inte det ena klotet ritad slät och jämnt:  `$fn`kommandot blev
   bara använd för den första sfären.
-1. I kod 2 blir den andra sfären ritad slät och jämn: `$fn`kommandot, även om
-  den rad är efter all ritningar, blev gjort först! Båda sfärerna blir
+1. I kod 2 blir det andra klotet ritad slät och jämnt: `$fn`kommandot, även om
+  den rad är efter all ritningar, blev gjort först! Båda kloten blir
   är ritade släta och jämna.
 
 ## 1.11. Boolesk algebra
@@ -311,18 +311,18 @@ intersection() {
 ```
 
 1. Använder en nummertecken (`#`) för att visa felet. Vad är felet?
-1. Hur kan Sven laga problemet?
+1. Hur kan Sven fixa problemet?
 
 \pagebreak
 
 ### 1.13. Svar
 
 1. Om du lägger till en nummertecken före `cube`,
-  ser du nedstående bild. Felet är at kuben är inte centrerade.
+  ser du nedstående bild. Felet är att kuben är inte centrerad.
 
 ![Kub och sphär med fel](cube_sphere_error.png)
 
-1. Gör kuben centrerade med `cube(15, center = true);` istället av
+1. Gör kuben centrerade med `cube(15, center = true);` istället för
   bara `cube(15);`.
 
 ## 1.14. 3D skrivande
@@ -335,9 +335,9 @@ Läs sidor 19-20, 'Getting Ready for 3D Printing'.
 
 ### 1.14. Svar
 
-1. Engelska 'rendering' är kallad 'rendering' på svenska också.
+1. Engelska 'rendering' kallas 'rendering' på svenska också.
 
 ## 1.15. Slutuppgift
 
 Rita varje figur på sida 22 'Design time: 3D shapes'
-i samma ordning. Visa varje en till en lärare eller visar all 6 samtidigt.
+i samma ordning. Visa en och en till en lärare eller visaa alla 6 samtidigt.
